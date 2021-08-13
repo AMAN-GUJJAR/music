@@ -7,9 +7,7 @@ from config import BOT_USERNAME
 @Client.on_message(filters.command(["start", "start@DARKXV2BOT"]) & filters.private & ~filters.channel)
 async def start(_, message: Message):
     await message.reply_text(
-        text="**ʜᴇʟʟᴏ 👋🏻 {}!**\n\n *I'ᴍ 𓆩ᴅᴀʀᴋᴍᴜsɪᴄ𓆪..ᴀɴ ᴀᴍᴀᴢɪɴɢ ɢʀᴏᴜᴘ ᴍᴜsɪᴄ ʙᴏᴛ ғᴏʀ ʏᴏᴜʀ ɢʀᴏᴜᴘs..[😉](https://telegra.ph/file/c8dabd71558433eac3fce.jpg)
-**\n\n**ᴄʟɪᴄᴋ /cmdlist ᴛᴏ ᴋɴᴏᴡ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs. ɪғ ғᴀᴄɪɴɢ ᴀɴʏ ɪssᴜᴇ ᴊᴏɪɴ ᴏᴜʀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ᴀɴᴅ ᴀsᴋ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ ᴏʀ sᴜɢɢᴇsᴛɪᴏɴs..
-"""
+        text="**ʜᴇʟʟᴏ 👋🏻 {}!**\n\n *I'ᴍ 𓆩ᴅᴀʀᴋᴍᴜsɪᴄ𓆪..ᴀɴ ᴀᴍᴀᴢɪɴɢ ɢʀᴏᴜᴘ ᴍᴜsɪᴄ ʙᴏᴛ ғᴏʀ ʏᴏᴜʀ ɢʀᴏᴜᴘs..[😉]!**\n\n**ᴄʟɪᴄᴋ /cmdlist ғᴏʀ ᴍᴏʀᴇ ʜᴇʟᴘ ᴏɴ ᴍʏ ᴜsᴀɢᴇ ❤**".format(message.from_user.mention),
         reply_markup=InlineKeyboardMarkup(
             [[
             InlineKeyboardButton("❀ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ❀", url="https://t.me/DARKXV2BOT?startgroup=true")
