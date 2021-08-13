@@ -1,7 +1,7 @@
 {
-  "name": "Music Bot",
+  "name": "GHOST MUSIC",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
-  "logo": "https://telegra.ph/file/eba02aefd3fef2f02623d.jpg",
+  "logo": "https://telegra.ph/file/c8dabd71558433eac3fce.jpg",
   "keywords": ["music", "voicechat", "telegram"],
   "repository": "https://github.com/ImJanindu/GroupMusicBot",
   "stack": "container",
@@ -14,7 +14,7 @@
     },
     "START_IMG": {
       "description": "Telegraph Link Of An Image",
-      "required": false
+      "value": "https://telegra.ph/file/c8dabd71558433eac3fce.jpg"
     },
     "API_ID": {
       "description": "App ID from my.telegram.org/apps"
