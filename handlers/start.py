@@ -7,7 +7,7 @@ from config import BOT_USERNAME
 @Client.on_message(filters.command(["start", "start@DARKXV2BOT"]) & filters.private & ~filters.channel)
 async def start(_, message: Message):
     await message.reply_text(
-        text="**ʜᴇʟʟᴏ 👋🏻 {}!**\n\n *I'ᴍ 𓆩ᴅᴀʀᴋᴍᴜsɪᴄ𓆪..ᴀɴ ᴀᴍᴀᴢɪɴɢ ɢʀᴏᴜᴘ ᴍᴜsɪᴄ ʙᴏᴛ ғᴏʀ ʏᴏᴜʀ ɢʀᴏᴜᴘs..[😉]!**\n\n**ᴄʟɪᴄᴋ /cmdlist ғᴏʀ ᴍᴏʀᴇ ʜᴇʟᴘ ᴏɴ ᴍʏ ᴜsᴀɢᴇ ❤**".format(message.from_user.mention),
+        text="**ʜᴇʟʟᴏ 👋🏻 {}!**\n\n *I'ᴍ 𓆩ᴅᴀʀᴋᴍᴜsɪᴄ𓆪..ᴀɴ ᴀᴍᴀᴢɪɴɢ ɢʀᴏᴜᴘ ᴍᴜsɪᴄ ʙᴏᴛ ғᴏʀ ʏᴏᴜʀ ɢʀᴏᴜᴘs..[😉]! **\n\n**ᴄʟɪᴄᴋ /cmdlist ғᴏʀ ᴍᴏʀᴇ ʜᴇʟᴘ ᴏɴ ᴍʏ ᴜsᴀɢᴇ ❤**".format(message.from_user.mention),
         reply_markup=InlineKeyboardMarkup(
             [[
             InlineKeyboardButton("❀ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ❀", url="https://t.me/DARKXV2BOT?startgroup=true")
@@ -15,7 +15,7 @@ async def start(_, message: Message):
             InlineKeyboardButton("❀ɢʀᴏᴜᴘ❀", url="https://t.me/DARKV2SUPPORT"),
             InlineKeyboardButton("❀ᴄʜᴀɴɴᴇʟ❀", url="https://t.me/dark5_spammer")
             ],[
-            InlineKeyboardButton("❀ᴄʀᴇᴀᴛᴇʀ❀", url="https://t.me/DARKAMAN5")
+            InlineKeyboardButton("❀ᴄʀᴇᴀᴛᴇʀ❀", url="http://t.me/DARKAMAN")
             ]]
         ),
         disable_web_page_preview=True
