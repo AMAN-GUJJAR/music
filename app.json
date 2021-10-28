@@ -52,7 +52,7 @@
     },
     "SUPPORT_GROUP": {
       "description": "Your MusicPlayer Bot Name.",
-      "required": false,
+      "required": true,
       "value": "DARKAMANSUPPORT"
     },
     "DURATION_LIMIT": {
