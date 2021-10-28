@@ -10,8 +10,12 @@ BOT_NAME = getenv("BOT_NAME", "")
 admins = {}
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH", "")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "")
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "")
+OWNER_NAME = getenv("OWNER_NAME", "")
 
-botusername = int(getenv("BOT_USERNAME"))
+BOT_USERNAME = int(getenv("BOT_USERNAME"))
 
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "10"))
 
