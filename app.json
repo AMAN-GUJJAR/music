@@ -19,6 +19,16 @@
       "required": false,
       "value": ""
     },
+    "ASSISTANT_NAME": {
+      "description": "Your MusicPlayer Bot Name.",
+      "required": false,
+      "value":
+    },
+    "OWNER_NAME": {
+      "description": "Your MusicPlayer Bot Name.",
+      "required": false,
+      "value":
+    },
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
       "required": true
@@ -34,6 +44,16 @@
     "BOT_USERNAME": {
       "description": "Your Bot's Username Without @.",
       "required": true
+    },
+    "UPDATES_CHANNEL": {
+      "description": "Your MusicPlayer Bot Name.",
+      "required": true,
+      "value": "DARKAMANCHANNEL"
+    },
+    "SUPPORT_GROUP": {
+      "description": "Your MusicPlayer Bot Name.",
+      "required": false,
+      "value": "DARKAMANSUPPORT"
     },
     "DURATION_LIMIT": {
       "description": "Max audio duration limit for downloads (minutes).",
