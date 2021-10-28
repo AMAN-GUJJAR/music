@@ -22,12 +22,12 @@
     "ASSISTANT_NAME": {
       "description": "Your MusicPlayer Bot Name.",
       "required": false,
-      "value":
+      "value": ""
     },
     "OWNER_NAME": {
       "description": "Your MusicPlayer Bot Name.",
       "required": false,
-      "value":
+      "value": ""
     },
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
